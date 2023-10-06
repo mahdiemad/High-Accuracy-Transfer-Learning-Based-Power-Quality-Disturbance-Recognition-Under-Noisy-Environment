@@ -17,7 +17,7 @@ open main _Code.ipynb by **Jupyter Notebook**  for better experience.
 ## Structure
 
 - **Datasets**: Based on IEEE P1159.3 Task Force, mathematical definitions of different PQDs are used to provide 300 random sample signals for each twenty-nine PQD, seven single and twenty-two compound disturbances. Matlab file, pqmodel.m, for signal generation  is in the "code" folder
-- **/code/16Khz samples.mat**:  raw voltage signals file sampling frequency of 16 Khz for further use with the pandas library
+- **/code/Signal_generator.m**:  M. file to create voltage signals  with sampling frequency of 16 Khz/ 8Khz for further use with the python libraries **( Please Run this M file first)**
 - **main _Code.ipynb**: the main file for usage
 - **Pictures**:  code for Confusion Matrix & Train loss/ accuracy plot
 
